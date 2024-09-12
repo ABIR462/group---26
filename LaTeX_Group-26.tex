@@ -1,0 +1,265 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{calc}
+\usepackage{eso-pic}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage[a4paper,left=25 mm,right=25 mm, bottom=25 mm,
+    margin=1in,top=22 mm]{geometry} % Adjusting the margins
+\usepackage{tikz}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usetikzlibrary{calc}
+
+\begin{document}
+
+\begin{titlepage}
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+    \centering
+    \vspace*{0 cm}
+    \LARGE
+    \textbf{Maulana Abul Kalam Azad University of Technology, WB}
+    \vspace{0.5cm}
+    
+    \includegraphics[width=0.2\textwidth]{makaut.png} % Assuming you have the logo image
+    \vspace{0.5cm}
+    
+    \Large
+    \textbf{\textcolor{blue!60}{Software Tools and Technology\\
+        -: Lab Notebook :-}}
+    \vspace{0.5cm}
+    
+    \large
+    \textbf{\textcolor{red}{Group 11}}
+    \vspace{1 cm}
+    
+    \textbf{Repository Link:} \href{https://github.com/Rajarshi-2005/LaTeX-Group-11}{https://github.com/ABIR462/group---26/tree/main}
+    \vspace{1cm}
+    
+    \textbf{\underline{\textcolor{blue!60}{Group Members}}}
+    \vspace{0.5cm}
+
+    \normalsize
+    \begin{enumerate}
+        \item \textbf{Abir Kumar Kayal}\\
+              \textbf{Roll No: 30001223034}\\
+              \textbf{Department: Bachelor's of Computer application}
+        \item \textbf{Amrita Mondal}\\
+              \textbf{Roll No: 30059223011}\\
+              \textbf{Department: BSc in Forensic Science}
+        \item \textbf{Saikat Biswas}\\
+              \textbf{Roll No: 30059223028}\\
+              \textbf{Department: BSc in Forensic Science}
+        \item \textbf{Soumyajit Das}\\
+              \textbf{Roll No: 30001223033}\\
+              \textbf{Department: Bachelor's of Computer application}
+        \item \textbf{Supratim Moulick}\\
+              \textbf{Roll No: 30084323024}\\
+              \textbf{Department: BSc in IT (Data Science)}
+    \end{enumerate}
+    \vspace{0.8 cm}
+    
+    \textbf{Instructor:} \href{mailto:ayan.ghosh@university.edu}{\textcolor{blue}{Ayan Ghosh}}\\
+    \vspace{0.2cm}
+    
+    \textbf{\textit{Date: September 11, 2024}}
+
+\end{titlepage}
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black]
+        ($(current page.north west) + (1cm,-1cm)$)
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+
+\centering
+\section*{\underline{\Huge\textbf{\textcolor{blue!60}{Index}}}}
+\vspace{0.5cm}
+
+\renewcommand{\arraystretch}{2}
+\setlength{\tabcolsep}{0pt} 
+
+\begin{tabular}{|>{\centering\arraybackslash}p{80pt}|>{\centering\arraybackslash}p{350pt}|}
+\hline
+\textbf{Serial No.} & \textbf{Questions} \\
+\hline
+1 & Introduction to GitHub and GitHub Desktop version installation \\\hline
+2 & Building a C program for a calculator in the local repository,committing,and publishing it as a public repository \\\hline
+3 & Converting a submit button to Chin Tapak Dum Dum \\\hline
+4 & Branching and Merging \\\hline
+
+\end{tabular}
+
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+% Lab notebook entries
+\section*{\Huge{\textcolor{blue!60}{Lab Notebook Entries}}}
+
+\subsection*{Entry by Abir Kumar Kayal}
+\textit{Date: [\today]}\\
+\vspace{1 cm}
+\begin{figure}[h!]
+   \centering
+    \includegraphics[width=0.5\linewidth]{GitHub-logo.png}
+\end{figure}
+\vspace{0.5 cm}
+
+\section*{\Huge{\underline{{-:GitHub:-}}}}
+\paragraph{\noindent}{GitHub is a web-based platform that allows developers to host, share, and collaborate on software projects. It provides a version control system powered by Git, enabling teams to track changes, manage code repositories, and work together seamlessly across different locations. GitHub supports collaborative development through features like pull requests, issues, and project boards, making it essential for open-source projects and professional software development. Additionally, it integrates with various development tools, enhancing productivity and streamlining the software development lifecycle.}
+
+\vspace{1 cm}
+\subsection*{\underline{-:Installation:-}}
+\paragraph{\setlength{\parindent}{0pt}}{Installing GitHub Desktop is a straightforward process that enhances your workflow by providing a user-friendly interface for managing repositories. To begin, download the installer from the [official GitHub Desktop website](https://desktop.github.com/) for your operating system—Windows or macOS. After downloading, run the installer and follow the on-screen instructions to complete the setup. Once installed, launch the application and sign in with your GitHub credentials, or create a new account if needed. GitHub Desktop simplifies the process of cloning repositories, making commits, and managing branches, making it an invaluable tool for developers of all skill levels. For Linux users, alternative methods like using Wine or other Git clients are available.}
+
+
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+\subsection*{Entry by Aabir Sengupta}
+\textit{Date: [\today]}\\
+% Write your lab notebook entry here.
+
+
+
+
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+\subsection*{Entry by Aditi Ghosh}
+\textit{Date: [\today]}\\
+% Write your lab notebook entry here.
+
+
+
+
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+\subsection*{Entry by Agnik Dey}
+\textit{Date: [\today]}\\
+% Write your lab notebook entry here.
+
+
+
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-2cm}
+\subsection*{Entry by Nawazish Alam}
+\textit{Date: [\today]}\\
+% Write your lab notebook entry here.
+\section*{\Huge{Git Assignment 3 : Branching and Merging}}
+
+\paragraph{Objective:} Demonstrate proficiency in Git branching, merging, and conflict resolution.
+
+\vspace{0.5cm}
+
+% Manually resizing the images to fit within the page margins
+% Screenshot 1
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/commit_history.png} % Adjusted width
+     \hspace{4 cm}
+    \caption{Screenshot of the GitHub repository showing the commit history.}
+\end{figure}
+
+% Screenshot 2 
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/branching.png} % Adjusted width
+     \hspace{4 cm}
+    \caption{Screenshot of the GitHub repository showing the branching.}
+\end{figure}
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{-1.5cm}
+% Screenshot 3
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/deleted_branches.png}
+       \hspace{4 cm}
+    \caption{Repository after deleting branches 'feature-1' and 'feature-2'.}
+    \label{fig:enter-label}
+\end{figure}
+% Screenshot 4
+\hspace{6 cm}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/git_log.png} % Adjusted width
+    \hspace{4 cm}
+    \caption{Screenshot of the local machine showing the Git log.}
+\end{figure}
+\hspace{6 cm}
+% Screenshot 5
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{LaTex_group_5/conflict_resolution.png} % Adjusted width
+       \hspace{4 cm}
+    \caption{Screenshot of the local machine showing conflict resolution.}
+\end{figure}
+\newpage
+\begin{tikzpicture}
+    [remember picture, overlay]
+    \draw[line width = 2pt, black] 
+        ($(current page.north west) + (1cm,-1cm)$) 
+        rectangle 
+        ($(current page.south east) + (-1cm,1cm)$);
+\end{tikzpicture}
+\vspace{0.5 cm}
+\subsection*{\Huge{Write-Up: Experience with Git Branching and Merging}}
+\hspace{1 cm}
+\paragraph {\noindent}{This assignment focused on the use of Git branching and merging to manage features in a collaborative environment. After creating separate branches for feature-1 and feature-2, each was developed independently.
+When merging feature-1 into the main branch, there were no conflicts. However, the merge of feature-2 caused a conflict in the shared.txt file. Conflict resolution was done manually, ensuring that the changes from both branches were retained.
+The practical experience highlighted the importance of clear commit messages and Git’s branching capabilities for parallel development and conflict management.}
+
+
+\end{document}
