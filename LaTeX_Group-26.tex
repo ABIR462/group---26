@@ -42,7 +42,7 @@
     \textbf{\textcolor{red}{Group 11}}
     \vspace{1 cm}
     
-    \textbf{Repository Link:} \href{https://github.com/Rajarshi-2005/LaTeX-Group-11}{https://github.com/ABIR462/group---26/tree/main}
+    \textbf{Repository Link:} \href{https://github.com/ABIR462/group---26/tree/main}{https://github.com/ABIR462/group---26/tree/main}
     \vspace{1cm}
     
     \textbf{\underline{\textcolor{blue!60}{Group Members}}}
@@ -96,9 +96,12 @@
 \textbf{Serial No.} & \textbf{Questions} \\
 \hline
 1 & Introduction to GitHub and GitHub Desktop version installation \\\hline
+
 2 & Building a C program for a calculator in the local repository,committing,and publishing it as a public repository \\\hline
 3 & Converting a submit button to Chin Tapak Dum Dum \\\hline
-4 & Branching and Merging \\\hline
+4 & Build a cv in latex\\\hline
+5 & Branching and Merging \\\hline
+
 
 \end{tabular}
 
@@ -140,13 +143,51 @@
         ($(current page.south east) + (-1cm,1cm)$);
 \end{tikzpicture}
 \vspace{-2cm}
-\subsection*{Entry by Aabir Sengupta}
+\subsection*{Entry by Amrita mondal}
 \textit{Date: [\today]}\\
-% Write your lab notebook entry here.
+\subsection{Building a C program for a calculator in the local
+repository,committing,and publishing it as a public repository}
+\section{Introduction}
+This document outlines the process of creating a basic calculator in C, committing it to a local Git repository, and pushing it to a public repository on GitHub.
+\section{Step 1: Writing the C Program}
+Below is the source code for a simple calculator written in C:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.8\linewidth]{Screenshot 2024-09-21 181207.png} % Adjusted width
+     \hspace{4 cm}
+    \caption{Screenshot of the source code.}
+\end{figure}
+\section{Step 2: Create a New Repository on GitHub}
+
+1. Go to your GitHub profile: \href{https://github.com/ABIR462}{GitHub - ABIR462}.
+2. Click on \texttt{New} to create a new repository.
+3. Name the repository \texttt{C-Calculator} and ensure it is set to \texttt{Public}.
+4. Do not initialize the repository with a \texttt{README}, \texttt{.gitignore}, or license, as these are not needed for the local repository you have created.
+
+\section{Step 3: Push Local Repository to GitHub}
+
+Copy the remote URL of the new GitHub repository. It should look like this:
+\begin{lstlisting}[caption={Example remote URL}]
+https://github.com/ABIR462/C-Calculator.git
+\end{lstlisting}
+
+Add the remote repository to your local Git:
+\begin{lstlisting}[language=bash, caption={Adding a remote repository}]
+git remote add origin https://github.com/ABIR462/C-Calculator.git
+\end{lstlisting}
+
+Push your local commits to the GitHub repository:
+\begin{lstlisting}[language=bash, caption={Pushing to GitHub}]
+git push -u origin master
+\end{lstlisting}
+
+\section{Step 4: Verify on GitHub}
+
+Visit your GitHub profile to ensure that the code is now available in your public repository: \href{https://github.com/ABIR462/C-Calculator}{https://github.com/ABIR462/C-Calculator}.
 
 
 
-
+    
 \newpage
 \begin{tikzpicture}
     [remember picture, overlay]
@@ -224,7 +265,7 @@ Steps to Fix the Button and Create a Pull Request\\
         ($(current page.south east) + (-1cm,1cm)$);
 \end{tikzpicture}
 \vspace{-2cm}
-\subsection*{Entry by Agnik Dey}
+\subsection*{Entry by Saikat biswas}
 \textit{Date: [\today]}\\
 % Write your lab notebook entry here.
 
@@ -239,7 +280,7 @@ Steps to Fix the Button and Create a Pull Request\\
         ($(current page.south east) + (-1cm,1cm)$);
 \end{tikzpicture}
 \vspace{-2cm}
-\subsection*{Entry by Nawazish Alam}
+\subsection*{Entry by Soumyajit Das}
 \textit{Date: [\today]}\\
 % Write your lab notebook entry here.
 \section*{\Huge{Git Assignment 3 : Branching and Merging}}
